@@ -1,3 +1,14 @@
+###### Wilken M.
+###### PhLAM
+###### Université de Lille, France.
+###### July, 2022.
+
+'''
+
+Program to obtain oscillator strengths from DR-TD calculations on DIRAC.
+
+'''
+
 import re
 import matplotlib.pyplot as plt
 import numpy as np

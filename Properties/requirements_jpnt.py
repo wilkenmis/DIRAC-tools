@@ -1,3 +1,14 @@
+###### Wilken M.
+###### PhLAM
+###### Université de Lille, France.
+###### July, 2022.
+
+'''
+
+Here I define some of the packages I'm currently using.
+
+'''
+
 import os
 import sys
 import re

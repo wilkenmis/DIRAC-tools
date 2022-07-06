@@ -1,10 +1,14 @@
+###### Wilken M.
+###### Université de Lille, France.
+###### July, 2022.
+
 '''
 
 Program to obtain contributions from DR-TD calculations on DIRAC.
 
 You'll need to inform the file, the component, the inactive orbital.
 
-Observe that here the smaller contribution is set to be 15%.
+Observe that here the smaller contribution is set to be 10%.
 
 '''
 

@@ -1,4 +1,13 @@
-#Broadening functions
+###### Wilken M.
+###### PhLAM
+###### Université de Lille, France.
+###### July, 2022.
+
+'''
+
+Broadening functions
+
+'''
 
 import numpy as np
 
