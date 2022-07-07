@@ -108,15 +108,15 @@ def multiple_extract(path, multiple_files, data,title):
                 if data[file].components[i] == '<<A( 1),B( 1)>>':
                     ax = plt.subplot(121)
                     plt.plot(data[file].frequency_eV[0],2*abs(data[file].im_polarizability[data[file].components[i]]),label="%s"%(lab)) #note the 2 factor
-                    plt.ylabel('|$α_{xx+yy}^{Im}$(ω)| $[a.u]$ ')
-                    plt.xlabel('$\omega$ $[eV]$')
+                    plt.ylabel('|$\alpha_{xx+yy}^{Im}$(\omega)| [a.u] ')
+                    plt.xlabel('$\omega$ [eV]')
                     plt.suptitle('%s'%(title))
 
                 #z-component
                 if data[file].components[i] == '<<A( 3),B( 3)>>':
                     ax = plt.subplot(122)
                     plt.plot(data[file].frequency_eV[0],abs(data[file].im_polarizability[data[file].components[i]]),label="%s"%(lab))
-                    plt.ylabel('|$α_{zz}^{Im}$(ω)| $[a.u]$ ')
+                    plt.ylabel('|$\alpha_{zz}^{Im}$(\omega)| $[a.u]$ ')
                     plt.xlabel('$\omega$ $[eV]$')
 
         except:

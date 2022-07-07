@@ -36,9 +36,18 @@ plt.rcParams.update(params)
 plt.style.use('seaborn-whitegrid')
 sns.set_style("white")
 
-sys.path.append("/Users/wilkenmisael/Desktop/DR_simulations/post_proc/spectra_teo_exp/src")
-from broadening_functions import *
+## First set of post processing tools
+
+sys.path.append("/Users/wilkenmisael/Documents/DIRAC-tools/Properties/")
+
 from extract_osc import *
 from contributions import *
+
+sys.path.append("/Users/wilkenmisael/Documents/DIRAC-tools/General-Processing/")
+
+from broadening_functions import *
 from shift_spectra import *
+
+sys.path.append("/Users/wilkenmisael/Documents/DIRAC-tools/Wave-Function/")
+
 from cont_mul import *
